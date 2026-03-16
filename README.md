@@ -5,5 +5,8 @@
 
 <p>📌Imagens do site: </p>
 
-![Imagem do site](img/captura1%20(1).png)
-![Imagem do site](img/captura2%20(2).png)
+<div align="center" width="50%">
+    ![Imagem do site](img/captura2%20(2).png)
+    
+    ![Imagem do site](img/captura1%20(1).png)
+</div>
