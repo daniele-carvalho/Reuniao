@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Impacted;
+    src: url(fontes/titulo/Impacted2.0.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Maquina;
+    src: url(fontes/texto/JMH\ Typewriter-Bold.ttf) ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --fontetitulo: Impacted;
+    --fontesubtitulo: Maquina;
+    --fontepadrao: Georgia, 'Times New Roman', Times, serif;
+    --offwhite: #d6d6d6;
+    --corsec: #91a9bd;
+}
+
+body {
+    background-color: rgba(210, 210, 223, 0.712);
+    margin: auto;
+    min-height: 100vh;
+}
+header {
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+    color: var(--offwhite) ;
+    background-color: black;
+}
+
+header h1{
+    font-family: var(--fontetitulo);
+    font-weight: 500;
+    font-size: 3em;
+}
+
+header h2{
+    font-family: var(--fontesubtitulo);
+}
+
+header a{
+    color: var(--corsec);
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main {
+    
+    margin: 10px 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fontepadrao);
+    text-align: justify;
+
+}
+
+section.img#img1 p{
+    background-color: #91a9bd4b;
+    color: white;
+}
+
+section.img#img2 p{
+    background-color: #91a9bd4b;
+    color: black;
+}
+
+section.img#img1{
+    width: 700px;
+    height: 700px;
+    background-image: url(img/soleterra.jpg);
+    background-position: center center;
+    
+}
+
+section.img#img2{
+    background-image: url(img/geleiras.png);
+}
+
+
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: var(--offwhite);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--corsec);
+}
+
+a:hover{
+    text-decoration: underline;
+}
