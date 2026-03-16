@@ -23,10 +23,11 @@
 }
 
 body {
-    background-color: rgba(210, 210, 223, 0.712);
-    margin: auto;
+    background-color: rgba(141, 141, 168, 0.712);
+    margin: 0px;
     min-height: 100vh;
 }
+
 header {
     padding: 10px;
     margin: 0px;
@@ -56,44 +57,73 @@ header a:hover{
 }
 
 main {
-    
-    margin: 10px 50px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    max-width: 800px;
+    align-self: center;
+    max-width: 1000px;
+    background-color: #91a9bd;
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px;
     font-family: var(--fontepadrao);
     text-align: justify;
-
 }
 
-section.img#img1 p{
-    background-color: #91a9bd4b;
-    color: white;
+main p{
+    margin-bottom: 22px;
+    line-height: 20px;
 }
 
-section.img#img2 p{
-    background-color: #91a9bd4b;
-    color: black;
+section#img1, section#img2{
+    background-size: cover;
+    background-position: center;
+    max-width: 1000px;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.486) 2px 2px 5px;
+    background-repeat: no-repeat;
+    margin: 22px 0px;
+    padding: 10px;
 }
 
-section.img#img1{
-    width: 700px;
-    height: 700px;
+#img1 {
     background-image: url(img/soleterra.jpg);
-    background-position: center center;
+}
+
+#texto1 {
+    background-color: rgba(0,0,0,0.5);
+    color: var(--corsec);
+    padding: 20px;
+    border-radius: 30px;
+    font-style: italic;
+    box-shadow: rgba(0, 0, 0, 0.486) 2px 2px 5px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    margin-bottom: 22px;
+    line-height: 20px;
     
 }
 
-section.img#img2{
-    background-image: url(img/geleiras.png);
+#img2 {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(img/geleiras.png);
 }
+    
 
-
-
+#texto2 {
+    background-color: rgba(0, 0, 0, 0.33);
+    color: var(--corsec);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.486) 2px 2px 5px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+    margin-bottom: 22px;
+    line-height: 20px;
+}
 
 footer {
     padding: 10px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: var(--offwhite);
 }
 
