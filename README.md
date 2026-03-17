@@ -2,7 +2,7 @@
 
 <p>Esse é um simples projeto para treinar minhas habilidades com html e css. Um site estático sobre uma das histórias de Arthur C. Clarke, que conheci no ensino médio e tem sido minha favorita desde então. </p>
 <p>O objetivo principal desse projeto foi praticar os recentes aprendizados sobre "background image" e responsividade.</p>
-
+<p>Acesse aqui: <a href="https://daniele-carvalho.github.io/Reuniao/" target="_blank">Reunião.</p>
 <p>📌Imagens do site: </p>
 
 <table>
